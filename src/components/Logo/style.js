@@ -7,12 +7,8 @@ export const Logo = styled.a`
     margin-right: ${({margin})=> (margin ? "2":"0")}rem;
     color: var(--font-color);
 
-    &:hover :nth-child(1){
-        color: #cbcbcb;
-    }
-
-    &:hover :nth-child(2){
-        color: #cbcbcb;
+    &:hover span{
+        transform: scale(1.1);
     }
 `;
 
