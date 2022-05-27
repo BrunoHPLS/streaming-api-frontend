@@ -2,13 +2,20 @@ import styled from 'styled-components';
 
 export const HeaderContainer = styled.header`
     position: fixed;
-
     width: calc(100vw - 2*12.5%);
-    padding: 1rem 12.5%;
-    background-color: #6713d2;
+    padding: 0.5rem 12.5%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.0) 100%);
     color: var(--font-color);
 
-    box-shadow: 0 2px 5px 0px rgba(0,0,0,0.5);
+    transition: all 0.2s ease-in-out;
+
+    ${({header})=>(header) ? "background-image: none;background-color: #222831;opacity: 0.95;":""}
+
+    &:hover{
+        background-image: none;
+        background-color: #222831;
+        opacity: 1;
+    }
 `;
 
 export const Navbar = styled.nav`
@@ -25,10 +32,10 @@ export const MenuList = styled.ul`
 
 export const MenuLink = styled.a`
     cursor: pointer;
-    font-size: 1.25rem;
+    font-size: 1rem;
 
     &:hover{
-        color: #ccc;
+        color: #FFF;
     }
 `
 
@@ -42,7 +49,7 @@ export const SearchForm = styled.form`
     align-items: center;
     padding: 0.25rem;
     border-radius: 0.25rem;
-    background-color: #441290;
+    background-color: #393E46;
 `
 
 export const SearchLabel = styled.label`

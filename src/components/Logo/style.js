@@ -5,7 +5,7 @@ export const Logo = styled.a`
     flex-direction: column;
     text-align: center;
     margin-right: ${({margin})=> (margin ? "2":"0")}rem;
-    color: var(--font-color);
+    color: #FDFDFD;
 
     &:hover span{
         transform: scale(1.1);

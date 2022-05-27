@@ -4,11 +4,33 @@ import * as style from './style';
 function UserMenu() {
   return (
       <style.UserContainer>
-        <a href="#">
-            <style.UserIcon/>
-        </a>
+        <style.UserIcon/>
         <style.UserMenu>
-
+          <style.LoggedPerfilInfo>Bruno HPLS</style.LoggedPerfilInfo>
+          <style.UserMenuList noBorder>
+            <style.UserMenuItem>
+              <style.ChangePerfilLink>Adrícia</style.ChangePerfilLink>
+            </style.UserMenuItem>
+            <style.UserMenuItem>
+              <style.ChangePerfilLink>Adrícia</style.ChangePerfilLink>
+            </style.UserMenuItem>
+            <style.UserMenuItem>
+              <style.UserMenuLink href="#" icon="group" >Gerenciar Perfis</style.UserMenuLink>
+            </style.UserMenuItem>
+          </style.UserMenuList>
+          <style.UserMenuList>
+            <style.UserMenuItem>
+              <style.UserMenuLink href="#" icon="manage_accounts" >Conta</style.UserMenuLink>
+            </style.UserMenuItem>
+            <style.UserMenuItem>
+              <style.UserMenuLink href="#" icon="contact_support" >Central de Ajuda</style.UserMenuLink>
+            </style.UserMenuItem>
+          </style.UserMenuList>
+          <style.UserMenuList>
+            <style.UserMenuItem>
+              <style.UserMenuLink href="#" icon="logout" center >Sair</style.UserMenuLink>
+            </style.UserMenuItem>
+          </style.UserMenuList>
         </style.UserMenu>
       </style.UserContainer>
   );
