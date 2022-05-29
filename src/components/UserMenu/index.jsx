@@ -6,13 +6,13 @@ function UserMenu() {
       <style.UserContainer>
         <style.UserIcon/>
         <style.UserMenu>
-          <style.LoggedPerfilInfo>Bruno HPLS</style.LoggedPerfilInfo>
+          <style.LoggedPerfilInfo>User 1</style.LoggedPerfilInfo>
           <style.UserMenuList noBorder>
             <style.UserMenuItem>
-              <style.ChangePerfilLink>Adrícia</style.ChangePerfilLink>
+              <style.ChangePerfilLink>User 2</style.ChangePerfilLink>
             </style.UserMenuItem>
             <style.UserMenuItem>
-              <style.ChangePerfilLink>Adrícia</style.ChangePerfilLink>
+              <style.ChangePerfilLink>User 3</style.ChangePerfilLink>
             </style.UserMenuItem>
             <style.UserMenuItem>
               <style.UserMenuLink href="#" icon="group" >Gerenciar Perfis</style.UserMenuLink>
