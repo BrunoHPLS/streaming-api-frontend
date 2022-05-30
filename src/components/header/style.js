@@ -9,11 +9,12 @@ export const HeaderContainer = styled.header`
 
     transition: all 0.2s ease-in-out;
 
-    ${({header})=>(header) ? "background-image: none;background-color: #222831;opacity: 0.95;":""}
+    ${({header})=>(header) ? "background-image: none;background-color: #222831;opacity: 0.95;box-shadow: 0 5px 10px 0px rgba(0,0,0,0.5);":""}
 
     &:hover{
         background-image: none;
         background-color: #222831;
+        box-shadow: 0 5px 10px 0px rgba(0,0,0,0.5);
         opacity: 1;
     }
 `;

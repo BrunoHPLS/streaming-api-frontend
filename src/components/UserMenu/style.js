@@ -100,7 +100,7 @@ export const LoggedPerfilInfo = styled.span`
     font-size: 0.9rem;
     padding: 0.35rem 0.5rem;
     border-radius: 0.25rem;
-    background-color: #222831;
+    background-color: rgba(0,0,0,0.15);
 
     &::before{
         opacity: 0.8;
@@ -113,10 +113,8 @@ export const ChangePerfilLink = styled.a`
     cursor: pointer;
     display: flex;
     align-items: center;
+    padding: 0.25rem;
     gap: 0.5rem;
-    padding: 0.4rem 0.5rem;
-    border-radius: 0.5rem;
-    background-color: #73777B50;
 
     &::before{
         content: "";
@@ -126,6 +124,10 @@ export const ChangePerfilLink = styled.a`
         background-color: #222831;
 
         transition: all 0.25s ease-in-out;
+    }
+
+    &:hover{
+        background-color: #444b53;
     }
 
     &:hover::before {

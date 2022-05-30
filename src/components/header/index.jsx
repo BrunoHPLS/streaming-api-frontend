@@ -30,7 +30,7 @@ function header() {
                 <li>
                     <style.SearchForm>
                         <style.SearchLabel htmlFor="search">search</style.SearchLabel>
-                        <style.SearchArea id="search" name="title" autoComplete="off"/>
+                        <style.SearchArea id="search" name="title" autoComplete="off" placeholder="Procure por um conteúdo"/>
                     </style.SearchForm>
                 </li>
                 <li>

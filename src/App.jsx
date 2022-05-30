@@ -3,6 +3,7 @@ import "./reset.css"
 import "./base.css"
 import Header from './components/header';
 import EmDestaqueSection from './components/EmDestaqueSection';
+import ContentSection from './components/ContentSection';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <main>
         <EmDestaqueSection/>
+        <ContentSection sectionName="Lançamentos"/>
       </main>
     </>
   );
