@@ -7,3 +7,9 @@ body{
     background-repeat: no-repeat;
     background-image: linear-gradient(to bottom, #5800FF 0%, #000000 99%);
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
